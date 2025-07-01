@@ -1,1 +1,1 @@
-# geop-privacy-policy
+# geop-docs
