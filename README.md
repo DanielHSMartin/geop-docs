@@ -1,1 +1,1 @@
-# geop-docs
+# Repositório público relacionado ao aplicativo GeOP.
