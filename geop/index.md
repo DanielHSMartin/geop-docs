@@ -1,8 +1,10 @@
-# GeOP
+<div style="text-align: center; margin-bottom: 30px;">
+  <img src="assets/logo. png" alt="GeOP Logo" width="150">
+  <h1 style="margin-top: 15px; margin-bottom: 5px;">GeOP</h1>
+  <p style="font-size: 1.2em; color: #666;"><strong>Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real</strong></p>
+</div>
 
-**Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real**
-
-GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operações, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, registros e alertas.
+GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operações, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, registros e alertas. 
 
 ---
 
@@ -56,7 +58,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 - **Armazenamento local criptografado** (Hive com criptografia)
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/permissoes-01. png" alt="Configurações de permissões" width="200">
+  <img src="screenshots/permissoes-01.png" alt="Configurações de permissões" width="200">
   <img src="screenshots/permissoes-02.png" alt="Privacidade" width="200">
   <img src="screenshots/permissoes-03.png" alt="Autenticação" width="200">
 </div>
@@ -123,7 +125,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/sync-01. png" alt="Status de sincronização" width="200">
-  <img src="screenshots/sync-02. png" alt="Modo offline" width="200">
+  <img src="screenshots/sync-02.png" alt="Modo offline" width="200">
   <img src="screenshots/sync-03.png" alt="Sincronização de fotos" width="200">
 </div>
 
@@ -138,7 +140,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 | **Realtime** | Todos os recursos, todos os intervalos de rastreamento |
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/assinaturas-01. png" alt="Planos de assinatura" width="200">
+  <img src="screenshots/assinaturas-01.png" alt="Planos de assinatura" width="200">
   <img src="screenshots/assinaturas-02.png" alt="Detalhes do plano" width="200">
 </div>
 
@@ -195,9 +197,9 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 ## 📲 Baixe Agora
 
-<div style="display: flex; gap: 20px; justify-content: center; margin: 30px 0;">
+<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 30px 0;">
   <a href="https://play.google.com/store/apps/details?id=com.hsmartin.geop">
-    <img src="https://play.google. com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png" alt="Disponível no Google Play" height="60">
+    <img src="https://play.google. com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic. png" alt="Disponível no Google Play" height="60">
   </a>
 </div>
 
@@ -205,10 +207,11 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 ## 📧 Contato
 
-Para dúvidas, sugestões ou suporte, entre em contato conosco. 
+Para dúvidas, sugestões ou suporte, entre em contato conosco.
 
 ---
 
-<p style="text-align: center; color: #666; margin-top: 40px;">
-  © 2025 GeOP - Todos os direitos reservados
-</p>
+<div style="text-align: center; margin-top: 40px;">
+  <img src="assets/logo.png" alt="GeOP Logo" width="60" style="opacity: 0.6;">
+  <p style="color: #666; margin-top: 10px;">© 2025 GeOP - Todos os direitos reservados</p>
+</div>
