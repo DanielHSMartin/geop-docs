@@ -1,5 +1,5 @@
 <div style="text-align: center; margin-bottom: 30px;">
-  <img src="assets/logo. png" alt="GeOP Logo" width="150">
+  <img src="assets/logo.png" alt="GeOP Logo" width="150">
   <h1 style="margin-top: 15px; margin-bottom: 5px;">GeOP</h1>
   <p style="font-size: 1.2em; color: #666;"><strong>Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real</strong></p>
 </div>
@@ -22,7 +22,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/mapa-01.png" alt="Mapa com rastreamento" width="200">
   <img src="screenshots/mapa-02.png" alt="Navegação no mapa" width="200">
-  <img src="screenshots/mapa-03. png" alt="Perfil de elevação" width="200">
+  <img src="screenshots/mapa-03.png" alt="Perfil de elevação" width="200">
 </div>
 
 ---
@@ -124,7 +124,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 - **Sincronização de fotos** para armazenamento em nuvem
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/sync-01. png" alt="Status de sincronização" width="200">
+  <img src="screenshots/sync-01.png" alt="Status de sincronização" width="200">
   <img src="screenshots/sync-02.png" alt="Modo offline" width="200">
   <img src="screenshots/sync-03.png" alt="Sincronização de fotos" width="200">
 </div>
