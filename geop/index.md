@@ -1,8 +1,3 @@
----
-layout: default
-title: GeOP - Gerenciamento de Operações
----
-
 # GeOP
 
 **Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real**
