@@ -4,7 +4,7 @@
   <p style="font-size: 1.2em; color: #666;"><strong>Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real</strong></p>
 </div>
 
-GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operações, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, registros e alertas. 
+GeOP é uma aplicação desenvolvida para auxiliar no gerenciamento de operações, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, recursos, registros e alertas. 
 
 ---
 
@@ -16,8 +16,10 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 - **Múltiplas opções de mapas base** para diferentes terrenos e cenários
 - **Integração com navegação** compatível com 20+ apps (Google Maps, Waze, Apple Maps, HERE, Sygic e mais)
 - **Bússola e indicador de direção** para orientação
-- **Sessões de rastreamento** com gravação de rota, distância e métricas de velocidade
-- **Visualização de perfil de elevação** para rotas rastreadas
+- **Sessões de rastreamento** com gravação de local, distância e métricas de velocidade
+- **Visualização de curvas de nível** em arquivos GeopDB
+- **Roteamento fluvial** utilizando dados do OpenStreetMaps
+- **Importação de arquivos PDF/KML/GPX** para dados geográficos externos
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/mapa-01.png" alt="Mapa com rastreamento" width="200">
@@ -31,6 +33,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 - **Criar e gerenciar operações** com tipos de atividade personalizáveis
 - **Organização de equipes** com estrutura hierárquica (líderes e membros)
+- **Definição de funções** dos membros das equipes 
 - **Gestão de integrantes** com permissões baseadas em funções
 - **Sistema de convites** para adicionar novos integrantes às operações
 - **Acompanhamento de status** da operação (planejamento, ativa, concluída)
@@ -53,9 +56,9 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
   - Visualizar/Editar Recursos
   - Visualizar/Editar Feições
   - Editar configurações da Operação
-- **Autenticação segura** via Firebase
+- **Autenticação segura** via Firebase Authentication
 - **Configurações de privacidade** com controles de visibilidade baseados em contatos
-- **Armazenamento local criptografado** (Hive com criptografia)
+- **Armazenamento local criptografado**
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/permissoes-01.png" alt="Configurações de permissões" width="200">
@@ -68,12 +71,10 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 ## 📋 Registros e Gestão de Dados
 
 - **Modelos de registro personalizáveis** para entrada estruturada de dados
-- **Rastreamento de recursos** com modelos de recursos
+- **Gestão de recursos** com modelos de recursos e alocação a integrantes e equipes
 - **Captura de fotos como evidência** com integração à câmera
-- **Importação de arquivos KML/GPX** para dados geográficos externos
-- **Suporte à importação de GeoPDF**
-- **Exportação de dados** em múltiplos formatos
-- **Links** para conectar registros e entidades relacionadas
+- **Exportação de dados** em múltiplos formatos para análise por IA
+- **Vínculos** para conectar registros e entidades relacionadas
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/registros-01.png" alt="Lista de registros" width="200">
@@ -102,7 +103,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 ## 🔔 Alertas e Notificações
 
-- **Notificações push** via Firebase Cloud Messaging
+- **Notificações** via push notifications
 - **Alertas de emergência** para situações críticas
 - **Notificações de atualizações** da operação
 - **Sistema de gerenciamento** de alertas
@@ -117,7 +118,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 
 ## ☁️ Nuvem e Sincronização
 
-- **Sincronização com a nuvem** via Firebase Firestore
+- **Sincronização com a nuvem** via Google Firebase
 - **Atualizações de dados em tempo real** entre dispositivos
 - **Arquitetura offline-first** com cache local
 - **Timestamps baseados em NTP** para sincronização precisa de horário
@@ -136,8 +137,8 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 | Plano | Recursos |
 |-------|----------|
 | **Offline** | Modo local apenas, sem sincronização com a nuvem |
-| **Online** | Sincronização com a nuvem, intervalos de rastreamento de 5 minutos |
-| **Realtime** | Todos os recursos, todos os intervalos de rastreamento |
+| **Online** | Sincronização com a nuvem, intervalos de comunicação de 5 minutos |
+| **Realtime** | Todos os recursos, comunicação em tempo real |
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/assinaturas-01.png" alt="Planos de assinatura" width="200">
@@ -168,6 +169,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 | Formato | Descrição |
 |---------|-----------|
 | **GeopDB** | Formato personalizado para mapas offline |
+| **GeoPDF** | Formato de mapas georeferenciados |
 | **KML** | Formato Google Earth |
 | **GPX** | Formato de intercâmbio GPS |
 | **JSON** | Exportação de dados da operação |
@@ -175,22 +177,6 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/importar-01.png" alt="Importar arquivo" width="200">
   <img src="screenshots/exportar-01.png" alt="Exportar dados" width="200">
-</div>
-
----
-
-## 🎨 Interface do Usuário
-
-- **Interface moderna** com Material Design
-- **Navegação inferior** para acesso rápido a Recursos, Mapa e Registros
-- **Botões de ação flutuantes** para ações comuns
-- **Cores personalizáveis** para integrantes no mapa
-- **Suporte a modo escuro** via tema do sistema
-
-<div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/ui-01.png" alt="Navegação principal" width="200">
-  <img src="screenshots/ui-02.png" alt="Menu lateral" width="200">
-  <img src="screenshots/ui-03.png" alt="Modo escuro" width="200">
 </div>
 
 ---
@@ -208,7 +194,7 @@ GeOP é uma aplicação desenvolvida em Flutter para gerenciamento de operaçõe
 ## 📧 Contato
 
 Para dúvidas, sugestões ou suporte, entre em contato conosco.
-
+danielhsmartin@gmail.com
 ---
 
 <div style="text-align: center; margin-top: 40px;">
