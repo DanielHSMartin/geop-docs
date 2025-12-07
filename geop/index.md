@@ -180,16 +180,6 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 
 ---
 
-## 📲 Baixe Agora
-
-<div style="display: flex; gap: 20px; justify-content: center; align-items: center; margin: 30px 0;">
-  <a href="https://play.google.com/store/apps/details?id=com.hsmartin.geop">
-    <img src="https://play.google. com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic. png" alt="Disponível no Google Play" height="60">
-  </a>
-</div>
-
----
-
 ## 📧 Contato
 
 Para dúvidas, sugestões ou suporte, entre em contato conosco.
