@@ -183,6 +183,7 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 ## 📧 Contato
 
 Para dúvidas, sugestões ou suporte, entre em contato conosco.
+
 danielhsmartin@gmail.com
 ---
 
