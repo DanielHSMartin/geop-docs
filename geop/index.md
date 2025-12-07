@@ -1,10 +1,10 @@
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="assets/logo.png" alt="GeOP Logo" width="150">
-  <h1 style="margin-top: 15px; margin-bottom: 5px;">GeOP</h1>
+  <h1 style="margin-top: 15px; margin-bottom: 5px;">GeOP Maps</h1>
   <p style="font-size: 1.2em; color: #666;"><strong>Aplicativo de Gerenciamento de Operações com Rastreamento em Tempo Real</strong></p>
 </div>
 
-GeOP é uma aplicação desenvolvida para auxiliar no gerenciamento de operações, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, recursos, registros e alertas. 
+GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e execução de operações policiais, oferecendo recursos de compartilhamento de localização em tempo real, gestão de integrantes, equipes, recursos, registros e alertas. 
 
 ---
 
@@ -126,7 +126,6 @@ GeOP é uma aplicação desenvolvida para auxiliar no gerenciamento de operaçõ
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/sync-01.png" alt="Status de sincronização" width="200">
-  <img src="screenshots/sync-02.png" alt="Modo offline" width="200">
   <img src="screenshots/sync-03.png" alt="Sincronização de fotos" width="200">
 </div>
 
