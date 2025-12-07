@@ -22,9 +22,9 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Importação de arquivos PDF/KML/GPX** para dados geográficos externos
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/mapa-01.png" alt="Mapa com rastreamento" width="200">
-  <img src="screenshots/mapa-02.png" alt="Navegação no mapa" width="200">
-  <img src="screenshots/mapa-03.png" alt="Perfil de elevação" width="200">
+  <img src="screenshots/rastreamento.jpeg" alt="Mapa com rastreamento" width="200">
+  <img src="screenshots/navegacao.jpeg" alt="Navegação no mapa" width="200">
+  <img src="screenshots/curvaNivel.jpeg" alt="Curvas de Nível" width="200">
 </div>
 
 ---
@@ -40,9 +40,9 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Agendamento de datas** de início e término das operações
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/operacoes-01.png" alt="Lista de operações" width="200">
-  <img src="screenshots/operacoes-02.png" alt="Detalhes da operação" width="200">
-  <img src="screenshots/operacoes-03.png" alt="Gestão de equipes" width="200">
+  <img src="screenshots/listaOperacoes.jpeg" alt="Lista de operações" width="200">
+  <img src="screenshots/detalheOperacao.jpeg" alt="Detalhes da operação" width="200">
+  <img src="screenshots/equipe.jpeg" alt="Gestão de equipes" width="200">
 </div>
 
 ---
@@ -61,9 +61,9 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Armazenamento local criptografado**
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/permissoes-01.png" alt="Configurações de permissões" width="200">
-  <img src="screenshots/permissoes-02.png" alt="Privacidade" width="200">
-  <img src="screenshots/permissoes-03.png" alt="Autenticação" width="200">
+  <img src="screenshots/permissoes.jpeg" alt="Configurações de permissões" width="200">
+  <img src="screenshots/contatos.jpeg" alt="Privacidade" width="200">
+  <img src="screenshots/login.jpeg" alt="Autenticação" width="200">
 </div>
 
 ---
@@ -77,9 +77,9 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Vínculos** para conectar registros e entidades relacionadas
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/registros-01.png" alt="Lista de registros" width="200">
-  <img src="screenshots/registros-02.png" alt="Novo registro" width="200">
-  <img src="screenshots/registros-03.png" alt="Detalhes do registro" width="200">
+  <img src="screenshots/registros.jpeg" alt="Lista de registros" width="200">
+  <img src="screenshots/recursos.jpeg" alt="Recursos" width="200">
+  <img src="screenshots/novoRegistro.jpeg" alt="Detalhes do registro" width="200">
 </div>
 
 ---
@@ -94,8 +94,8 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Detalhes das feições** com descrições e metadados
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/feicoes-01.png" alt="Camadas do mapa" width="200">
-  <img src="screenshots/feicoes-02.png" alt="Edição de feição" width="200">
+  <img src="screenshots/camadas.jpeg" alt="Camadas do mapa" width="200">
+  <img src="screenshots/editarGeometria.jpeg" alt="Edição de feição" width="200">
   <img src="screenshots/feicoes-03.png" alt="Gerenciamento de visibilidade" width="200">
 </div>
 
@@ -109,9 +109,9 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Sistema de gerenciamento** de alertas
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/alertas-01.png" alt="Lista de alertas" width="200">
-  <img src="screenshots/alertas-02.png" alt="Alerta de emergência" width="200">
-  <img src="screenshots/alertas-03.png" alt="Notificações" width="200">
+  <img src="screenshots/alerta.jpeg" alt="Alerta" width="200">
+  <img src="screenshots/emergencia.jpeg" alt="Alerta de emergência" width="200">
+  <img src="screenshots/notificacao.jpeg" alt="Notificações" width="200">
 </div>
 
 ---
@@ -125,8 +125,8 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 - **Sincronização de fotos** para armazenamento em nuvem
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/sync-01.png" alt="Status de sincronização" width="200">
-  <img src="screenshots/sync-03.png" alt="Sincronização de fotos" width="200">
+  <img src="screenshots/sincronizacao.jpeg" alt="Status de sincronização" width="200">
+  <img src="screenshots/fotos.jpeg" alt="Sincronização de fotos" width="200">
 </div>
 
 ---
@@ -140,8 +140,8 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 | **Realtime** | Todos os recursos, comunicação em tempo real |
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/assinaturas-01.png" alt="Planos de assinatura" width="200">
-  <img src="screenshots/assinaturas-02.png" alt="Detalhes do plano" width="200">
+  <img src="screenshots/planos.jpeg" alt="Planos de assinatura" width="200">
+  <img src="screenshots/assinatura.jpeg" alt="Detalhes do plano" width="200">
 </div>
 
 ---
@@ -174,8 +174,8 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 | **JSON** | Exportação de dados da operação |
 
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
-  <img src="screenshots/importar-01.png" alt="Importar arquivo" width="200">
-  <img src="screenshots/exportar-01.png" alt="Exportar dados" width="200">
+  <img src="screenshots/importar.jpeg" alt="Importar arquivo" width="200">
+  <img src="screenshots/exportar.jpeg" alt="Exportar dados" width="200">
 </div>
 
 ---
