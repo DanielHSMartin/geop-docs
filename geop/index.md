@@ -96,7 +96,7 @@ GeOP é uma aplicação desenvolvida para auxiliar planejamento, gerenciamento e
 <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin: 20px 0;">
   <img src="screenshots/camadas.jpeg" alt="Camadas do mapa" width="200">
   <img src="screenshots/editarGeometria.jpeg" alt="Edição de feição" width="200">
-  <img src="screenshots/feicoes-03.png" alt="Gerenciamento de visibilidade" width="200">
+  <img src="screenshots/visibilidade.jpeg" alt="Gerenciamento de visibilidade" width="200">
 </div>
 
 ---
